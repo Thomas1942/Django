@@ -1,0 +1,11 @@
+<h1>Count</h1>
+<br>
+<a href="{% url 'home' %}">Return to home</a>
+<br>
+<h2>There are {{ count }} words in your text</h2>
+
+<h2>See your text below</h2>
+{{ fulltext }}
+
+<h2>Below is a table showing your word count per word</h2>
+{{ sortedwords }}
